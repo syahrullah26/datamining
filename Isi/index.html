@@ -1,0 +1,887 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Repository Matakuliah Data Mining">
+      
+      
+        <link rel="canonical" href="https://syahrullah26.github.io/datamining/Isi/">
+      
+      
+        <meta name="author" content="Muhammad Syahrullah">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.2">
+    
+    
+      
+        <title>Materi - Muhammad Syahrullah</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.30686662.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+      <link rel="manifest" href="../manifest.webmanifest">
+    
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-XXXXXXXX-X", "auto")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#statistika-deskriptif" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://syahrullah26.github.io/datamining/" title="Muhammad Syahrullah" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Muhammad Syahrullah
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Materi
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://syahrullah26.github.io/datamining/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Muhammad Syahrullah
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://syahrullah26.github.io/datamining/" title="Muhammad Syahrullah" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Muhammad Syahrullah
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://syahrullah26.github.io/datamining/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Muhammad Syahrullah
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="index" class="md-nav__link">
+      index
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Materi
+      </label>
+    
+    <a href="./" title="Materi" class="md-nav__link md-nav__link--active">
+      Materi
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#statistika-deskriptif" class="md-nav__link">
+    Statistika Deskriptif
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mean" class="md-nav__link">
+    Mean
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#median" class="md-nav__link">
+    Median
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modus" class="md-nav__link">
+    Modus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#varians" class="md-nav__link">
+    Varians
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#standard-deviasi" class="md-nav__link">
+    Standard Deviasi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skawness" class="md-nav__link">
+    Skawness
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quartile" class="md-nav__link">
+    Quartile
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#penerapan-statistik-deskriptif-menggunakan-python" class="md-nav__link">
+    Penerapan Statistik Deskriptif Menggunakan Python
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alat-dan-bahan" class="md-nav__link">
+    Alat dan Bahan :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-langkah" class="md-nav__link">
+    Langkah - Langkah
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pertama" class="md-nav__link">
+    PERTAMA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kedua" class="md-nav__link">
+    KEDUA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ketiga" class="md-nav__link">
+    KETIGA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keempat" class="md-nav__link">
+    KEEMPAT
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#statistika-deskriptif" class="md-nav__link">
+    Statistika Deskriptif
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mean" class="md-nav__link">
+    Mean
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#median" class="md-nav__link">
+    Median
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modus" class="md-nav__link">
+    Modus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#varians" class="md-nav__link">
+    Varians
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#standard-deviasi" class="md-nav__link">
+    Standard Deviasi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skawness" class="md-nav__link">
+    Skawness
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quartile" class="md-nav__link">
+    Quartile
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#penerapan-statistik-deskriptif-menggunakan-python" class="md-nav__link">
+    Penerapan Statistik Deskriptif Menggunakan Python
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alat-dan-bahan" class="md-nav__link">
+    Alat dan Bahan :
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#langkah-langkah" class="md-nav__link">
+    Langkah - Langkah
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pertama" class="md-nav__link">
+    PERTAMA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kedua" class="md-nav__link">
+    KEDUA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ketiga" class="md-nav__link">
+    KETIGA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#keempat" class="md-nav__link">
+    KEEMPAT
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Materi</h1>
+                
+                <h3 id="statistika-deskriptif">Statistika Deskriptif<a class="headerlink" href="#statistika-deskriptif" title="Permanent link">&para;</a></h3>
+<p>pengertian:</p>
+<p>Statistik Deskriptif adalah statistik yang berfungsi untuk mendeskripsikan atau memberi gambaran terhadap obyek yang diteliti melalui data sampel atau populasi sebagaimana adanya, tanpa melakukan analisis dan membuat kesimpulan yang berlaku untuk umum.</p>
+<p>Tipe Statistik Deskriptif :</p>
+<h6 id="mean">Mean<a class="headerlink" href="#mean" title="Permanent link">&para;</a></h6>
+<p>​   Mean adalah <em>nilai rata-rata</em> dari beberapa buah data. Nilai mean dapat ditentukan dengan membagi jumlah data dengan banyaknya data.
+$$
+\bar x ={\sum \limits_{i=1}^{n} x_i \over N} = {x_1 + x_2 + x_3 + ... + x_n \over N}
+$$
+Dimana:
+x = data ke n
+x bar = x rata-rata = nilai rata-rata sampel
+n = banyaknya data</p>
+<h6 id="median">Median<a class="headerlink" href="#median" title="Permanent link">&para;</a></h6>
+<p>​   Median menentukan letak tengah data setelah data disusun menurut urutan  nilainya. Bisa juga <em>nilai tengah dari data-data yang terurut<strong>.</strong></em> 
+$$
+Me=Q_2 =\left( \begin{matrix}
+  n+1 \over 2
+\end{matrix} \right), jika\quad n\quad ganjil
+$$</p>
+<p>$$
+Me=Q_2 =\left( \begin{matrix}
+  {xn \over 2 } {xn+1\over 2} \over 2
+\end{matrix} \right), jika\quad n\quad genap
+$$</p>
+<p>Dimana :</p>
+<p>Me = Nilai tengah dari kelompok data</p>
+<p>n = banyak data</p>
+<h6 id="modus">Modus<a class="headerlink" href="#modus" title="Permanent link">&para;</a></h6>
+<p>​   Modus adalah nilai yang sering muncul. Jika kita tertarik pada data frekuensi, jumlah dari suatu nilai dari kumpulan data, maka kita menggunakan modus. Modus sangat baik bila digunakan untuk data yang memiliki sekala kategorik yaitu nominal atau ordinal.
+$$
+M_o = Tb + p{b_1 \over b_1 + b_2}
+$$
+Dimana :</p>
+<p>Mo = modus dari kelompok data</p>
+<p>Tb = tepi bawah dari elemen modus</p>
+<p>b1 = selisih frekuensi antara elemen modus dengan elemet sebelumnya</p>
+<p>b2 = selisih frekuensi antara elemen modus dengan elemen sesudahnya</p>
+<p>p = panjang interval</p>
+<p>nilai b1 dan b2 –&gt; adalah mutlak / selalu positif</p>
+<h6 id="varians">Varians<a class="headerlink" href="#varians" title="Permanent link">&para;</a></h6>
+<p>​   Varians adalah ukuran penyebaran setiap nilai dalam suatu himpunan data dari rata-rata. Dalam proses mencari varian terdapat langkah yang harus dilakukan, dengan mengambil ukuran jarak dari setiap nilai dan mengurangi rata-rata dari setiap nilai dalam data, kemudian hasil dari ukuran jarak tersebut dikuadratkan dan membagi jumlah kuadrat dengan jumlah nilai dalam himpunan data. Dapat dihitung dengan rumus berikut :
+$$
+\sigma^2 = {\sum \limits_{i=1}^{n} (x_i - \bar x)^2 \over n}
+$$
+Dimana :</p>
+<p>Xi = titik data</p>
+<p>x bar = rata-rata dari semua titik data</p>
+<p>n = banyak dari dari anggota data</p>
+<h6 id="standard-deviasi">Standard Deviasi<a class="headerlink" href="#standard-deviasi" title="Permanent link">&para;</a></h6>
+<p>​   Standar Deviasi merupakan simpanan baku atau ukuran dispersi kumpulan data relatif terhadap rata-rata atau lebih simpelnya adalah akar kuadrat positif dari varian. Rumus Standar Deviasi:
+$$
+\sigma^ = \sqrt {{\sum \limits_{i=1}^{n} (x_i - \bar x)^2 \over n}}
+$$
+Dimana :</p>
+<p>xi = nilai x ke i</p>
+<p>x = rata rata</p>
+<p>n = ukuran sampel</p>
+<h6 id="skawness">Skawness<a class="headerlink" href="#skawness" title="Permanent link">&para;</a></h6>
+<p>Skawness atau disebut juga ukuran kemiringan yaitu suatu bilangan yang dapat menunjukan mirin atau tidaknya bentuk kurva suatu distribusi frekuensi.
+$$
+Skewness = {\sum \limits{i=1}^n (x_i - \bar x)^i \over (n- 1) \sigma^3}
+$$
+Dimana :</p>
+<p>xi= titik data x bar = rata-rata dari distribusi n = jumlah titik dalam distribusi o = standar deviasi</p>
+<h6 id="quartile">Quartile<a class="headerlink" href="#quartile" title="Permanent link">&para;</a></h6>
+<p>Quartile adalah nilai-nilai yang membagi segugus pengamatan menjadi empat bagian sama besar. Nilai-nilai itu, yang dilambangkan dengan Q1, Q2, dan Q3, mempunyai sifat bahwa 25% data jatuh dibawah Q1, 50% data jatuh dibawah Q2, dan 75% data jatuh dibawah Q3
+$$
+Q_1 = (n + 1) {1\over 4}
+$$</p>
+<p>$$
+Q_2 = (n + 1) {1\over 2}
+$$</p>
+<p>$$
+Q_3 = (n + 1) {3\over 4}
+$$</p>
+<p>Dimana  :</p>
+<p>Q = nilai quartil</p>
+<p>n = banyak data</p>
+<h3 id="penerapan-statistik-deskriptif-menggunakan-python">Penerapan Statistik Deskriptif Menggunakan Python<a class="headerlink" href="#penerapan-statistik-deskriptif-menggunakan-python" title="Permanent link">&para;</a></h3>
+<h4 id="alat-dan-bahan">Alat dan Bahan :<a class="headerlink" href="#alat-dan-bahan" title="Permanent link">&para;</a></h4>
+<p>Pada penerapan ini saya menggunakan 100 data random yang disimpan dalam bentuk .csv dan untuk mempermudah dalam penerapan tersebut, perlu disiapkan library python yang dapat didownload secara gratis.</p>
+<p>library python yang digunakan adalah sebagai berikut :</p>
+<ol>
+<li>pandas, digunakan untuk data manajemen dan data analysis.</li>
+<li>scipy, merupakan library berisi kumpulan algoritma dan fungsi matematika.</li>
+</ol>
+<h4 id="langkah-langkah">Langkah - Langkah<a class="headerlink" href="#langkah-langkah" title="Permanent link">&para;</a></h4>
+<h5 id="pertama">PERTAMA<a class="headerlink" href="#pertama" title="Permanent link">&para;</a></h5>
+<p>Pertama-tama masukkan library yang sudah disiapkan</p>
+<div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">scipy</span> <span class="kn">import</span> <span class="n">stats</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
+</pre></div>
+
+
+<h5 id="kedua">KEDUA<a class="headerlink" href="#kedua" title="Permanent link">&para;</a></h5>
+<p>Selanjutnya memuat data csv yang telah disiapkan</p>
+<div class="codehilite"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;data.csv&#39;</span><span class="p">)</span>
+<span class="n">df</span>
+</pre></div>
+
+
+<p>setelah di run maka program akan menampilkan seperti berikut :</p>
+<table>
+<thead>
+<tr>
+<th>stats</th>
+<th>MTK</th>
+<th>B.indonesia</th>
+<th>B.inggris</th>
+<th>Fisika</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Min</td>
+<td>20</td>
+<td>50</td>
+<td>50</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Max</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Mean</td>
+<td>59.798</td>
+<td>74.834</td>
+<td>74.398</td>
+<td>69.672</td>
+</tr>
+<tr>
+<td>Standard Deviasi</td>
+<td>23.37</td>
+<td>14.77</td>
+<td>14.72</td>
+<td>17.35</td>
+</tr>
+<tr>
+<td>Variasi</td>
+<td>546.34</td>
+<td>218.02</td>
+<td>216.64</td>
+<td>300.97</td>
+</tr>
+<tr>
+<td>SKewnes</td>
+<td>0.01</td>
+<td>0.02</td>
+<td>0.06</td>
+<td>-0.02</td>
+</tr>
+<tr>
+<td>Quartile 1</td>
+<td>40</td>
+<td>62</td>
+<td>61</td>
+<td>55</td>
+</tr>
+<tr>
+<td>Quartile 2</td>
+<td>59</td>
+<td>74</td>
+<td>73</td>
+<td>70.5</td>
+</tr>
+<tr>
+<td>Quartile 3</td>
+<td>80.25</td>
+<td>88</td>
+<td>88</td>
+<td>84</td>
+</tr>
+<tr>
+<td>Median</td>
+<td>59</td>
+<td>74</td>
+<td>73</td>
+<td>70.5</td>
+</tr>
+<tr>
+<td>Modus</td>
+<td>39</td>
+<td>60</td>
+<td>95</td>
+<td>56</td>
+</tr>
+</tbody>
+</table>
+<h5 id="ketiga">KETIGA<a class="headerlink" href="#ketiga" title="Permanent link">&para;</a></h5>
+<p>Kemudian membuat data penyimpanan / dictionary yang menampung nilai yang ditampilkan. selanjutnya mengambil data dari beberapa kolom pada csv dengan cara diiterasi serta, menghitungnya dengan berbagai metode yang telah disiapkan oleh pandas itu sendiri. kemudian hasil tersebut di disimpan pada penyimpanan yang tadi.</p>
+<div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">HTML</span><span class="p">,</span> <span class="n">display</span>
+<span class="kn">import</span> <span class="nn">tabulate</span>
+<span class="n">table</span><span class="o">=</span><span class="p">[</span>
+        <span class="p">[</span><span class="s2">&quot;method&quot;</span><span class="p">]</span><span class="o">+</span><span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">],</span>
+        <span class="p">[</span><span class="s2">&quot;count()&quot;</span><span class="p">]</span><span class="o">+</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">],</span>
+        <span class="p">[</span><span class="s2">&quot;mean()&quot;</span><span class="p">]</span><span class="o">+</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">],</span>
+        <span class="p">[</span><span class="s2">&quot;std()&quot;</span><span class="p">]</span><span class="o">+</span><span class="p">[</span><span class="s2">&quot;{:.2f}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">.</span><span class="n">std</span><span class="p">())</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">],</span>
+        <span class="p">[</span><span class="s2">&quot;min()&quot;</span><span class="p">]</span><span class="o">+</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">.</span><span class="n">min</span><span class="p">()</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">],</span>
+        <span class="p">[</span><span class="s2">&quot;max()&quot;</span><span class="p">]</span><span class="o">+</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">],</span>
+        <span class="p">[</span><span class="s2">&quot;q1()&quot;</span><span class="p">]</span><span class="o">+</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.25</span><span class="p">)</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">],</span>
+        <span class="p">[</span><span class="s2">&quot;q2()&quot;</span><span class="p">]</span><span class="o">+</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.50</span><span class="p">)</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">],</span>
+        <span class="p">[</span><span class="s2">&quot;q3&quot;</span><span class="p">]</span><span class="o">+</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">.</span><span class="n">quantile</span><span class="p">(</span><span class="mf">0.75</span><span class="p">)</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">],</span>
+        <span class="p">[</span><span class="s2">&quot;skew&quot;</span><span class="p">]</span><span class="o">+</span><span class="p">[</span><span class="s2">&quot;{:.2f}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">col</span><span class="p">]</span><span class="o">.</span><span class="n">skew</span><span class="p">())</span> <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">],</span>
+     <span class="p">]</span>
+
+<span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="n">tabulate</span><span class="o">.</span><span class="n">tabulate</span><span class="p">(</span><span class="n">table</span><span class="p">,</span> <span class="n">tablefmt</span><span class="o">=</span><span class="s1">&#39;html&#39;</span><span class="p">)))</span>
+</pre></div>
+
+
+<h5 id="keempat">KEEMPAT<a class="headerlink" href="#keempat" title="Permanent link">&para;</a></h5>
+<p>Yang terakhir yaitu memvisualisasikan hasil tersebut dalam bentuk data frame</p>
+<div class="codehilite"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="n">tabulate</span><span class="o">.</span><span class="n">tabulate</span><span class="p">(</span><span class="n">table</span><span class="p">,</span> <span class="n">tablefmt</span><span class="o">=</span><span class="s1">&#39;html&#39;</span><span class="p">)))</span>
+</pre></div>
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$$','$$']]}
+});
+</script>
+
+<p><script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script></p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href=".." title="index" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                index
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019 - 2020 Muhammad Syahrullah
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/syahrullah26" class="md-footer-social__link fa fa-github"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.c648116f.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
