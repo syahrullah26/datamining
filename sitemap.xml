@@ -2,27 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://syahrullah26.github.io/datamining/</loc>
-     <lastmod>2019-10-03</lastmod>
+     <lastmod>2019-11-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://syahrullah26.github.io/datamining/Isi/</loc>
-     <lastmod>2019-10-03</lastmod>
+     <lastmod>2019-11-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://syahrullah26.github.io/datamining/Mengukur Jarak Data/</loc>
-     <lastmod>2019-10-03</lastmod>
+     <lastmod>2019-11-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://syahrullah26.github.io/datamining/Missing Value/</loc>
-     <lastmod>2019-10-03</lastmod>
+     <lastmod>2019-11-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://syahrullah26.github.io/datamining/Decision Tree/</loc>
-     <lastmod>2019-10-03</lastmod>
+     <lastmod>2019-11-07</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://syahrullah26.github.io/datamining/Tugas 5 - Clustering/</loc>
+     <lastmod>2019-11-07</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
