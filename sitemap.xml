@@ -2,37 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://syahrullah26.github.io/datamining/</loc>
-     <lastmod>2019-11-14</lastmod>
+     <lastmod>2019-11-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://syahrullah26.github.io/datamining/Isi/</loc>
-     <lastmod>2019-11-14</lastmod>
+     <lastmod>2019-11-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://syahrullah26.github.io/datamining/Mengukur Jarak Data/</loc>
-     <lastmod>2019-11-14</lastmod>
+     <lastmod>2019-11-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://syahrullah26.github.io/datamining/Missing Value/</loc>
-     <lastmod>2019-11-14</lastmod>
+     <lastmod>2019-11-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://syahrullah26.github.io/datamining/Decision Tree/</loc>
-     <lastmod>2019-11-14</lastmod>
+     <lastmod>2019-11-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://syahrullah26.github.io/datamining/Tugas 5 - Clustering (1)/</loc>
-     <lastmod>2019-11-14</lastmod>
+     <lastmod>2019-11-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
+     <loc>https://syahrullah26.github.io/datamining/Tugas 6 - Fuzzy C-Means/</loc>
+     <lastmod>2019-11-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://syahrullah26.github.io/datamining/Tugas 7 - Regresi Linier Sederhana dan Berganda/</loc>
+     <lastmod>2019-11-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
